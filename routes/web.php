@@ -17,5 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/meetings', 'App\Http\Controllers\MeetingsController@index');
-Route::get('/meetings/{id}', 'App\Http\Controllers\MeetingsController@show');
+Route::get('/meetings', 'App\Http\Controllers\MeetingsController@index')->middleware('auth.basic');
+Route::get('/meetings/{id}', 'App\Http\Controllers\MeetingsController@show')->middleware('auth.basic');
