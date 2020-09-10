@@ -1,6 +1,6 @@
 # Boardable Coding Exercise
 
-This repo is designed as a starting point to implement a "public meeting page" feature. A full description of the task and expected outcome is available in ExerciseOverview.md .
+This repo is designed as a starting point to implement a "public meeting page" feature. A full description of the task and expected outcome is available in [ExerciseOverview.md](ExerciseOverview.md).
 
 In order to run the application, you will need to:
 
