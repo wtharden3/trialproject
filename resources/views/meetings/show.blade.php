@@ -3,11 +3,12 @@
 @section('content')
     <a href="/meetings">&lt; Back</a>
 
-    <p>show.blade.php 🖐</p>
+    <p>show.blade.php 🖐 -- public page</p>
     <p>$meeting</p>
     <pre>{{ $meeting }}</pre>
 
-    <pre>we need a new page with this info</pre>
+    <pre>we need a new page with private info</pre>
+    <pre> From the public meeting page, a visiting user should be able to enter in an arbitrary email address, name, and an RSVP of "Yes", "No', or "Maybe" (inside Boardable this would obviously require authentication, but any name/email will do for now)</pre>
     <h1>{{$meeting->title}}</h1>
 
     <div>{{$meeting->description}}</div>
