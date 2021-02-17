@@ -10,6 +10,6 @@ In order to run the application, you will need to:
 4. Run `php artisan migrate`
 5. Run `php artisan db:seed`
 6. Run your server (`php artisan serve` if not using Homestead or another virtualization technique)
-7. Visit the application ( http://127.0.0.1:3000/meetings ) - you may need to adjust the port pending on how you serve the code
+7. Visit the application ( http://127.0.0.1:8000/meetings ) - you may need to adjust the port pending on how you serve the code
 8. Log in with username: `test@boardable.com` and password: `password`
 
