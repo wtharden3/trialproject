@@ -6,9 +6,6 @@
     <p>show.blade.php 🖐 -- public page</p>
     <p>$meeting</p>
     <pre>{{ $meeting }}</pre>
-
-    <pre>we need a new page with private info</pre>
-    <pre> From the public meeting page, a visiting user should be able to enter in an arbitrary email address, name, and an RSVP of "Yes", "No', or "Maybe" (inside Boardable this would obviously require authentication, but any name/email will do for now)</pre>
     <h1>{{$meeting->title}}</h1>
 
     <div>{{$meeting->description}}</div>
@@ -22,13 +19,11 @@
 
     <form>
         <div class="col-6">
-
-        <pre>email</pre>
+        <label>Email</label>
         <input type="email">
         </div>
         <div class="col-6">
-
-        <pre>name</pre>
+        <label>Name</label>
         <input type="text">
         </div>
         <pre>RSVP 'yes' or 'no'</pre>

@@ -6,7 +6,7 @@
     @foreach($meetings as $meeting)
     <div>
         <p>index.blade.php 👇</p>
-        <a href="/meetings/{{$meeting->id}}">{{$meeting->title}}</a>
+        <a href="/meetings/{{$meeting->id}}/public">{{$meeting->title}}</a>
     </div>
     @endforeach
 @endsection

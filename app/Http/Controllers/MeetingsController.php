@@ -19,4 +19,12 @@ class MeetingsController extends Controller
 
         return view('meetings.show')->with(['meeting' => $meeting]);
     }
+
+    public function privatepage($meetingId)
+    {
+        $meeting = Meeting::find($meetingId);
+        //need a find by email:
+
+        return view('meetings.privatepage')->with(['meeting' => $meeting]);
+    }
 }
