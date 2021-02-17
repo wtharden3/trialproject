@@ -5,6 +5,7 @@
 
     @foreach($meetings as $meeting)
     <div>
+        <p>index.blade.php 👇</p>
         <a href="/meetings/{{$meeting->id}}">{{$meeting->title}}</a>
     </div>
     @endforeach

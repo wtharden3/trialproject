@@ -3,6 +3,11 @@
 @section('content')
     <a href="/meetings">&lt; Back</a>
 
+    <p>show.blade.php 🖐</p>
+    <p>$meeting</p>
+    <pre>{{ $meeting }}</pre>
+
+    <pre>we need a new page with this info</pre>
     <h1>{{$meeting->title}}</h1>
 
     <div>{{$meeting->description}}</div>
